@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Sweet Tats Tattoo</title>
+    <meta charset='utf-8'>
+    <meta name='description' content='Welcome to Sweet Tats Tattoo. Browse our gallery to see which tattoo is for you.'>
+    <meta name='keywords' content='tattoo, body art, tribal, portrait, ink, tattoo shop, tattoo parlors, tattoo artists'>
+    <meta name='author' content='Katie Griffiths'>
+
+    <link href='css/sweet_tats.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <h3>51 Sweet Field Avenue<br>Tralee Box 1<br>021 957863</h3> 
+        <h2>Sweet Tats Tattoo</h2>
+        <div id="menu">
+          <a href="pages/index.html" class="this_page">Home</a><a href="pages/artists.html">Artists</a><a href="pages/gallery.html">Gallery</a><a href="pages/contact_us.html">Contact Us</a>
+        </div>
+      </div>
+      
+      <div id="content"> 
+        <div id="home_page_top">
+          <img src="images/shop.jpg" alt="Shop" />      <!--Image taken from google image search http://3.bp.blogspot.com/-wGJOmdCVX-c/TjuDim63GjI/AAAAAAAAAYw/xQNmU7v3F-k/s1600/DSC_8237.jpg-->
+          <div id="header_text">
+            <h1>Sweet Tats Tattoo</h1>   <!--Paragraph taken and sligthly alterd fromhttp://www.southernstartattoo.com/-->    
+            <p> The shop may be new, but the artists aren't. With over 50 years tattooing experience put together Edel Walsh, Joe Myler and Josh Duffy, 
+                helped put Sweet Tats Tattoo on the map in Ireland for tattoos.                              
+                We're fast, friendly and affordable, so come see what everyone has been raving about.</p>
+          </div>          
+        </div>
+        <table id="pricing">           <!--Pricing gotten from http://body-piercing.ie/price-list/ -->
+          <thead>
+            <tr>
+              <th colspan="4">Pricing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ears</td><td class="price">&euro;10-20</td>
+              <td>Eyebrow</td><td class="price">&euro;25</td>
+            </tr>
+            <tr>
+              <td>Nose</td><td class="price">&euro;20</td>
+              <td>Tragus</td><td class="price">&euro;25</td>
+            </tr>
+            <tr>
+              <td>Rook/Conch/Diath</td><td class="price">&euro;25</td>
+              <td>Septum</td><td class="price">&euro;25</td>
+            </tr>
+            <tr>
+              <td>Lip</td><td class="price">&euro;25</td>
+              <td>Toungue</td><td class="price">&euro;25</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="body_text">For an extended pricing list on all our piercings we have to offer, please visit our piercing page at <a href="http://body-piercing.ie/price-list/" target="_blank"> Body Piercing.ie</a></p>
+        <div id="home_page_bottom">
+            <h2> Our Work</h2>  <!--Slide show images taken from Pintrest search http://www.pinterest.com/search/pins/?q=Tattoos&term_meta%5B%5D=Tattoos%7Ctyped -->
+            <div class="our-work">
+              <div><img src="images/slide_show/thumbs/image1.jpg" alt="Image 1" /></div>
+              <div><img src="images/slide_show/thumbs/image2.jpg" alt="Image 2" /></div>
+              <div><img src="images/slide_show/thumbs/image3.jpg" alt="Image 3" /></div>
+              <div><img src="images/slide_show/thumbs/image4.jpg" alt="Image 4" /></div>
+              <div><img src="images/slide_show/thumbs/image5.jpg" alt="Image 5" /></div>
+              <div><img src="images/slide_show/thumbs/image6.jpg" alt="Image 6" /></div>
+              <div><img src="images/slide_show/thumbs/image7.jpg" alt="Image 7" /></div>
+              <div><img src="images/slide_show/thumbs/image8.jpg" alt="Image 8" /></div>
+            </div>
+          </div>
+        <div id="buttons">  <!--Taken from google search images http://iconion.com/images/icon_sets/data2/images/social_media_icons.jpg -->
+           <img src="images/social_media_icons.png" alt="Social Media Icons">       
+      </div>    
+      </div>      
+      <div id="footer">
+        <span id="copy">&copy; Sweet Tats Tattoo 2014</span>
+        <span id="to_top"><a href="#header">Back to Top</a></span>   
+        <span id="site_map"><a href="pages/site_map.html">Site Map</a></span>
+      </div>
+    </div>
+    <!-- Slider and instructions for use from http://kenwheeler.github.io/slick/ -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    	$('.our-work').slick({
+        autoplay:true,
+        slidesToShow:4,
+        dots:true,
+    	});
+    });
+    </script>
+  </body> 
+</html>
